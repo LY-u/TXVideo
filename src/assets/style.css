@@ -1,0 +1,56 @@
+.title{
+  margin-left: 100px;
+  color: brown;
+}
+.input-bar{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.input-text{
+  outline: none;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #666;
+  border: 1px solid #dedede;
+  border-radius: 10px 0 0 10px;
+  box-sizing: border-box;
+}
+.getInfo-btn{
+  opacity: 0;
+}
+.btn-label{
+  padding: 0 20px;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  background: #d0c668;
+  cursor: pointer;
+}
+
+.video-box{
+  
+}
+.video-box video{
+  max-width: 800px;
+  margin: 40px auto;
+  display: block;
+}
+.urlString{
+  width: 800px;
+  margin: 40px auto;
+  word-wrap:break-word;
+  font-size: 12px;
+  color: #66a;
+  min-height: 20px;
+}
+
+.err-info{
+  color: red;
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}
