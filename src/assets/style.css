@@ -1,5 +1,6 @@
 .title{
-  margin-left: 100px;
+  margin-left: 200px;
+  padding: 60px 0;
   color: brown;
 }
 .input-bar{
@@ -9,7 +10,7 @@
 }
 .input-text{
   outline: none;
-  width: 300px;
+  width: 400px;
   height: 40px;
   padding: 0 10px;
   font-size: 16px;

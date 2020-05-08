@@ -49,7 +49,14 @@ function loadVideo(b){
 }
 
 function requestInfo( str ){
-  api.getInfo(str).then(res => {
+  let id = ''
+  if(/^[A-Za-z0-9]+$/.test(str)) {
+    id = str
+  }else {
+    let strs = str.match(/[A-Za-z0-9]+(?=\.html)/)
+    if(strs.length) id = strs[0]
+  }
+  api.getInfo(id).then(res => {
     extractUrl(res)
   }).catch(err => {
     console.log(err)
