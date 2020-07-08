@@ -16,7 +16,6 @@ function extractUrl(res) {
     let url = ((ul.ui || []) [0] || {}).url
     let uri = url + fn + '?vkey=' + fvkey
     console.log(uri)
-
     setVideo(uri)
   }else if(parseData.msg){
     setVideo()
